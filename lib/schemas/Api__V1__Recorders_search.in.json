@@ -1,0 +1,81 @@
+{
+    "type": "object",
+    "properties": {
+        "page": {
+            "required": false,
+            "type": "integer"
+        },
+        "q_model_cont_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_vendor_name_cont_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_sdhc_eq_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_type_eq_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_resolution_eq_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_input_channels_eq_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_playback_channels_eq_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_onvif_true_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_psia_true_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_ptz_true_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_sd_card_true_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_upnp_true_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_audio_in_true_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_audio_out_true_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_hdmi_true_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_hot_swap_true_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_support_3rdparty_true_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_digital_io_true_": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

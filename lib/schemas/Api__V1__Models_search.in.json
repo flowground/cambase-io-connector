@@ -1,0 +1,61 @@
+{
+    "type": "object",
+    "properties": {
+        "page": {
+            "required": false,
+            "type": "integer"
+        },
+        "q_model_cont_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_manufacturer_name_cont_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_shape_eq_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_resolution_eq_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_onvif_true_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_psia_true_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_ptz_true_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_infrared_true_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_varifocal_true_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_sd_card_true_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_upnp_true_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_audio_in_true_": {
+            "required": false,
+            "type": "string"
+        },
+        "q_audio_out_true_": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

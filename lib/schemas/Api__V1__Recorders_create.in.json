@@ -1,0 +1,141 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "type": "object",
+            "properties": {
+                "vendor_id": {
+                    "description": "Vendor ID",
+                    "type": "string"
+                },
+                "recorder_model_": {
+                    "description": "Model",
+                    "type": "string"
+                },
+                "recorder_name_": {
+                    "description": "Name",
+                    "type": "string"
+                },
+                "recorder_recorder_type_": {
+                    "description": "Type",
+                    "type": "string"
+                },
+                "recorder_resolution_": {
+                    "description": "Resolution",
+                    "type": "string"
+                },
+                "recorder_onvif_": {
+                    "description": "ONVIF",
+                    "type": "string"
+                },
+                "recorder_psia_": {
+                    "description": "PSIA",
+                    "type": "string"
+                },
+                "recorder_ptz_": {
+                    "description": "PTZ",
+                    "type": "string"
+                },
+                "recorder_discontinued_": {
+                    "description": "Discontinued",
+                    "type": "string"
+                },
+                "recorder_support_3rdparty_": {
+                    "description": "3rd pparty Camera Support",
+                    "type": "string"
+                },
+                "recorder_sd_card_": {
+                    "description": "SD Card",
+                    "type": "string"
+                },
+                "recorder_upnp_": {
+                    "description": "UPnP",
+                    "type": "string"
+                },
+                "recorder_hot_swap_": {
+                    "description": "Hot Swap",
+                    "type": "string"
+                },
+                "recorder_hdmi_": {
+                    "description": "HDMI Support",
+                    "type": "string"
+                },
+                "recorder_digital_io_": {
+                    "description": "Digital I/O",
+                    "type": "string"
+                },
+                "recorder_audio_in_": {
+                    "description": "Audio In",
+                    "type": "string"
+                },
+                "recorder_audio_out_": {
+                    "description": "Audio Out",
+                    "type": "string"
+                },
+                "recorder_input_channels_": {
+                    "description": "Input Channels",
+                    "type": "string"
+                },
+                "recorder_playback_channels_": {
+                    "description": "Playback Channels",
+                    "type": "string"
+                },
+                "recorder_usb_": {
+                    "description": "USB Ports",
+                    "type": "string"
+                },
+                "recorder_sdhc_": {
+                    "description": "SD Card (GB)",
+                    "type": "string"
+                },
+                "recorder_mobile_access_": {
+                    "description": "Mobile Access",
+                    "type": "string"
+                },
+                "recorder_alarms_": {
+                    "description": "Alarms",
+                    "type": "string"
+                },
+                "recorder_raid_support_": {
+                    "description": "Raid Support",
+                    "type": "string"
+                },
+                "recorder_storage_": {
+                    "description": "Internal Storage",
+                    "type": "string"
+                },
+                "recorder_additional_information_": {
+                    "description": "Additional Information",
+                    "type": "string"
+                },
+                "recorder_default_username_": {
+                    "description": "Default Username",
+                    "type": "string"
+                },
+                "recorder_default_password_": {
+                    "description": "Default Password",
+                    "type": "string"
+                },
+                "recorder_jpeg_url_": {
+                    "description": "JPEG URL",
+                    "type": "string"
+                },
+                "recorder_h264_url_": {
+                    "description": "H264 URL",
+                    "type": "string"
+                },
+                "recorder_mjpeg_url_": {
+                    "description": "MJPEG URL",
+                    "type": "string"
+                },
+                "recorder_official_url_": {
+                    "description": "Official URL",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "vendor_id"
+            ]
+        }
+    }
+}

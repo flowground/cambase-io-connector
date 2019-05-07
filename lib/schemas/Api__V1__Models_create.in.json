@@ -1,0 +1,85 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "type": "object",
+            "properties": {
+                "vendor_id": {
+                    "description": "Vendor ID",
+                    "type": "string"
+                },
+                "model_model_": {
+                    "description": "Model",
+                    "type": "string"
+                },
+                "model_shape_": {
+                    "description": "Shape",
+                    "type": "string"
+                },
+                "model_resolution_": {
+                    "description": "Resolution",
+                    "type": "string"
+                },
+                "model_onvif_": {
+                    "description": "ONVIF",
+                    "type": "string"
+                },
+                "model_psia_": {
+                    "description": "PSIA",
+                    "type": "string"
+                },
+                "model_ptz_": {
+                    "description": "PTZ",
+                    "type": "string"
+                },
+                "model_infrared_": {
+                    "description": "Infrared",
+                    "type": "string"
+                },
+                "model_varifocal_": {
+                    "description": "Varifocal",
+                    "type": "string"
+                },
+                "model_sd_card_": {
+                    "description": "SD Card",
+                    "type": "string"
+                },
+                "model_upnp_": {
+                    "description": "UPnP",
+                    "type": "string"
+                },
+                "model_audio_in_": {
+                    "description": "UPnP",
+                    "type": "string"
+                },
+                "model_audio_out_": {
+                    "description": "UPnP",
+                    "type": "string"
+                },
+                "model_default_username_": {
+                    "description": "Default Username",
+                    "type": "string"
+                },
+                "model_default_password_": {
+                    "description": "Default Password",
+                    "type": "string"
+                },
+                "model_jpeg_url_": {
+                    "description": "JPEG URL",
+                    "type": "string"
+                },
+                "model_h264_url_": {
+                    "description": "H264 URL",
+                    "type": "string"
+                },
+                "model_mjpeg_url_": {
+                    "description": "MJPEG URL",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "vendor_id"
+            ]
+        }
+    }
+}

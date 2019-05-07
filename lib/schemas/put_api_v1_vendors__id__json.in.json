@@ -1,0 +1,30 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "type": "object",
+            "properties": {
+                "vendor_name_": {
+                    "description": "Name",
+                    "type": "string"
+                },
+                "vendor_info_": {
+                    "description": "Info.",
+                    "type": "string"
+                },
+                "vendor_url_": {
+                    "description": "Website",
+                    "type": "string"
+                },
+                "vendor_mac_": {
+                    "description": "MAC",
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

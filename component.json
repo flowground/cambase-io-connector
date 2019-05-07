@@ -1,0 +1,306 @@
+{
+    "title": "Cambase.io",
+    "description": "Cambase.io is a project by Evercam.io in order to make it easier for software developers to have a reliable, up to date source of model hardware information available via a public API.",
+    "docsUrl": "",
+    "url": "https://api.apis.guru/v2/specs/cambase.io/1.0/swagger.json",
+    "envVars": {},
+    "credentials": {
+        "fields": {
+            "server": {
+                "label": "Server",
+                "viewClass": "SelectView",
+                "model": [
+                    "http://api.cambase.io/",
+                    "--- Custom URL"
+                ],
+                "required": true
+            },
+            "otherServer": {
+                "label": "Custom Server URL",
+                "viewClass": "TextFieldView"
+            }
+        }
+    },
+    "triggers": {
+        "startFlow": {
+            "main": "./lib/triggers/startFlow.js",
+            "type": "polling",
+            "title": "Start Flow",
+            "fields": {}
+        }
+    },
+    "actions": {
+        "Api__V1__Models_index": {
+            "main": "./lib/actions/Api__V1__Models_index.js",
+            "title": "Fetches all Models",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/Api__V1__Models_index.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "Api__V1__Models_create": {
+            "main": "./lib/actions/Api__V1__Models_create.js",
+            "title": "Creates a new Model",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/Api__V1__Models_create.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "Api__V1__Models_search": {
+            "main": "./lib/actions/Api__V1__Models_search.js",
+            "title": "Searches all Models",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/Api__V1__Models_search.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "Api__V1__Models_show": {
+            "main": "./lib/actions/Api__V1__Models_show.js",
+            "title": "Fetches a single Model",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/Api__V1__Models_show.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "patch_api_v1_models__id__json": {
+            "main": "./lib/actions/patch_api_v1_models__id__json.js",
+            "title": "Updates an existing Model",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/patch_api_v1_models__id__json.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "put_api_v1_models__id__json": {
+            "main": "./lib/actions/put_api_v1_models__id__json.js",
+            "title": "Updates an existing Model",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/put_api_v1_models__id__json.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "Api__V1__Recorders_index": {
+            "main": "./lib/actions/Api__V1__Recorders_index.js",
+            "title": "Fetches all Recorders",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/Api__V1__Recorders_index.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "Api__V1__Recorders_create": {
+            "main": "./lib/actions/Api__V1__Recorders_create.js",
+            "title": "Creates a new Recorder",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/Api__V1__Recorders_create.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "Api__V1__Recorders_search": {
+            "main": "./lib/actions/Api__V1__Recorders_search.js",
+            "title": "Searches all Recorders",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/Api__V1__Recorders_search.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "Api__V1__Recorders_show": {
+            "main": "./lib/actions/Api__V1__Recorders_show.js",
+            "title": "Fetches a single Recorder",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/Api__V1__Recorders_show.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "patch_api_v1_recorders__id__json": {
+            "main": "./lib/actions/patch_api_v1_recorders__id__json.js",
+            "title": "Updates an existing Recorder",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/patch_api_v1_recorders__id__json.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "put_api_v1_recorders__id__json": {
+            "main": "./lib/actions/put_api_v1_recorders__id__json.js",
+            "title": "Updates an existing Recorder",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/put_api_v1_recorders__id__json.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "Api__V1__Vendors_index": {
+            "main": "./lib/actions/Api__V1__Vendors_index.js",
+            "title": "Fetches all Vendors",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/Api__V1__Vendors_index.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "Api__V1__Vendors_create": {
+            "main": "./lib/actions/Api__V1__Vendors_create.js",
+            "title": "Creates a new Vendor",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/Api__V1__Vendors_create.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "Api__V1__Vendors_show": {
+            "main": "./lib/actions/Api__V1__Vendors_show.js",
+            "title": "Fetches a single Vendor",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/Api__V1__Vendors_show.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "patch_api_v1_vendors__id__json": {
+            "main": "./lib/actions/patch_api_v1_vendors__id__json.js",
+            "title": "Updates an existing Vendor",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/patch_api_v1_vendors__id__json.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "put_api_v1_vendors__id__json": {
+            "main": "./lib/actions/put_api_v1_vendors__id__json.js",
+            "title": "Updates an existing Vendor",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/put_api_v1_vendors__id__json.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        }
+    }
+}
